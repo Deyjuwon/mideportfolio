@@ -12,7 +12,7 @@ const Header = () => {
   const [isOpened, setIsOpened] = useState(false)
   
   return (
-    <div className="flex items-center justify-between px-5 md:justify-around py-6">
+    <div className="flex items-center justify-between px-4 md:justify-around py-4 md:py-6">
         <div>
             <p className="text-xl md:text-2xl font-bold logo">AYOMIDE</p>
         </div>
