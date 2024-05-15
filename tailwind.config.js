@@ -17,6 +17,16 @@ module.exports = {
         'darkWhite': 'f5f5f7',
         'lightBlack': 'D9D9D9',
         'darkBlack': '737373',
+      },
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.025em',
+        normal: '0',
+        wide: '.025em',
+        wider: '.05em',
+        widerr: '.4em',
+        widestt: '.8em',
       }
     },
   },
