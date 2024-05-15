@@ -12,9 +12,9 @@ const Header = () => {
   const [isOpened, setIsOpened] = useState(false)
   
   return (
-    <div className="flex items-center justify-around py-6">
+    <div className="flex items-center justify-between px-5 md:justify-around py-6">
         <div>
-            <p className="text-2xl font-bold logo">AYOMIDE</p>
+            <p className="text-xl md:text-2xl font-bold logo">AYOMIDE</p>
         </div>
         <nav className="">
           <ul className="text-sm  font-medium hidden md:flex gap-8 ">
